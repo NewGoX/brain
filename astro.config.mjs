@@ -2,16 +2,12 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// https://astro.build/config
 export default defineConfig({
     site: 'https://newgox.vercel.app',
     integrations: [
         starlight({
             title: 'NewGoX 知识库',
-            // 确保这里是方括号 [ ]，且里面是 link 属性
-            social: [
-                { icon: 'github', link: 'https://github.com/NewGoX/brain' }
-            ],
+            // 注意：这里已经彻底删除了引发报错的 social 配置
             sidebar: [
                 {
                     label: '🚀 开始使用',
