@@ -8,7 +8,7 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'NewGoX 知识库',
-            // 修正后的 social 语法：使用数组格式
+            // 确保这里是方括号 [ ]，且里面是 link 属性
             social: [
                 { icon: 'github', link: 'https://github.com/NewGoX/brain' }
             ],
