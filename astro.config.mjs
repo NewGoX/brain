@@ -4,30 +4,33 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			sidebar: [
+    integrations: [
+        starlight({
+            title: 'NewGoX 知识库', // 这里改成了你的项目名
+            social: [
+                { icon: 'github', label: 'GitHub', href: 'https://github.com/NewGoX/brain' }
+            ],
+            sidebar: [
                 {
-                    label: '开始使用', // 把原本的 Guides 改成中文
+                    label: '🚀 开始使用',
                     items: [
                         { label: '示例指南', slug: 'guides/example' },
                     ],
                 },
                 {
-                    label: 'Web3 安全篇', // 你新的一级目录
-                    autogenerate: { directory: 'beidaoleixing' }, // 自动扫描 web3-security 文件夹
+                    label: '🛡️ Web3安全篇',
+                    autogenerate: { directory: 'beidaoleixing' }, 
                 },
                 {
-                    label: 'Web3 出入金', // 另一个一级目录
-                    autogenerate: { directory: 'web3_churujin' }, // 自动扫描 web3-ramp 文件夹
+                    label: '💰 Web3出入金',
+                    // 注意：请确保你的文件夹名确实是 web3_churujin
+                    autogenerate: { directory: 'web3_churujin' }, 
                 },
                 {
-                    label: '参考资料', // 把原本的 Reference 改成中文
+                    label: '📚 参考资料',
                     autogenerate: { directory: 'reference' },
                 },
             ],
-		}),
-	],
+        }),
+    ],
 });
