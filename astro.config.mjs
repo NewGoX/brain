@@ -8,9 +8,10 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'NewGoX 知识库',
-            social: {
-                github: 'https://github.com/NewGoX/brain',
-            },
+            // 修正后的 social 语法：使用数组格式
+            social: [
+                { icon: 'github', link: 'https://github.com/NewGoX/brain' }
+            ],
             sidebar: [
                 {
                     label: '🚀 开始使用',
