@@ -4,12 +4,13 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+    site: 'https://newgox.vercel.app',
     integrations: [
         starlight({
-            title: 'NewGoX 知识库', // 这里改成了你的项目名
-            social: [
-                { icon: 'github', label: 'GitHub', href: 'https://github.com/NewGoX/brain' }
-            ],
+            title: 'NewGoX 知识库',
+            social: {
+                github: 'https://github.com/NewGoX/brain',
+            },
             sidebar: [
                 {
                     label: '🚀 开始使用',
@@ -23,8 +24,16 @@ export default defineConfig({
                 },
                 {
                     label: '💰 Web3出入金',
-                    // 注意：请确保你的文件夹名确实是 web3_churujin
-                    autogenerate: { directory: 'web3_churujin' }, 
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
                 },
                 {
                     label: '📚 参考资料',
