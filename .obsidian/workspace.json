@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
@@ -183,6 +184,8 @@
   },
   "active": "bd2395b18b58b256",
   "lastOpenFiles": [
+    "src/content/docs/web3_project/jupiter/Allocation",
+    "src/content/docs/web3_project/jupiter/fenpei",
     "src/content/docs/waiting/02",
     "src/content/docs/waiting/未命名文件夹",
     "src/content/docs/waiting/01",
@@ -192,8 +195,6 @@
     "src/content/docs/web3_practice/airdrop",
     "src/content/docs/web3_tools/pro",
     "src/content/docs/web3_tools/base",
-    "src/content/docs/web3_project/pendle",
-    "src/content/docs/web3_project/未命名文件夹",
     "src/content/docs/web3_project/pump/test01.md",
     "src/content/docs/web3_onoff/on/binance-c2c-in.md",
     "src/content/docs/web3_onoff/on/overseas-card-in.md",
