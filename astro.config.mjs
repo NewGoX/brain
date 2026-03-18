@@ -48,7 +48,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -60,7 +61,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -72,7 +74,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -84,7 +87,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -96,7 +100,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -108,7 +113,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -120,7 +126,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
@@ -132,7 +139,8 @@ export default defineConfig({
                             autogenerate: { directory: 'web3_churujin/rujin' },
                         },
                     ],
-                }, {
+                },
+                {
                     label: '💰 Web3出入金',
                     items: [
                         {
