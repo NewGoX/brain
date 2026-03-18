@@ -37,6 +37,115 @@ export default defineConfig({
                     autogenerate: { directory: 'jupiter' }, // 自动扫描该文件夹下的子目录
                 },
                 {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                }, {
+                    label: '💰 Web3出入金',
+                    items: [
+                        {
+                            label: '出金',
+                            autogenerate: { directory: 'web3_churujin/chujin' },
+                        },
+                        {
+                            label: '入金',
+                            autogenerate: { directory: 'web3_churujin/rujin' },
+                        },
+                    ],
+                },                
+                {
                     label: '📚 参考资料',
                     autogenerate: { directory: 'reference' },
                 },
