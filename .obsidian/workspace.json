@@ -11,14 +11,13 @@
             "id": "7500d7873e49bc6e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "src/content/docs/web3_churujin/chujin/binance-c2c.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "binance-c2c"
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ]
@@ -94,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/web3_churujin/chujin/binance-c2c.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "binance-c2c 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -183,12 +181,23 @@
       "bases:新建数据库": false
     }
   },
-  "active": "7500d7873e49bc6e",
+  "active": "bd2395b18b58b256",
   "lastOpenFiles": [
+    "未命名",
+    "未命名.base",
+    "未命名.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "Pasted image 20260318101231.png",
+    "src/content/docs/web3_churujin/rujin/binance-c2c-in.md",
+    "src/content/docs/web3_churujin/chujin/binance-c2c.md",
+    "src/content/docs/web3_churujin/chujin/overseas-card.md",
+    "src/content/docs/web3_project/test/test01.md",
+    "src/content/docs/web3_project/jupiter/JUP销毁数据明细.md",
+    "src/content/docs/web3_project/test",
     "src/content/docs/web3_project/jupiter/burn",
     "src/content/docs/web3_project/jupiter/$JUP销毁数据明细",
     "src/content/docs/web3_project/hyperliquid",
-    "src/content/docs/web3_project/jupiter/JUP销毁数据明细.md",
     "src/content/docs/web3_project/jupiter",
     "src/content/docs/project/Jupiter/JUP销毁数据明细.md",
     "src/content/docs/web3_project/Jupiter/JUP销毁数据明细.md",
@@ -196,13 +205,7 @@
     "src/content/docs/web3_project/circle",
     "src/content/docs/web3_project/aave",
     "src/content/docs/web3_project/Jupiter",
-    "src/content/docs/web3_project/Hyperliquid",
-    "src/content/docs/web3_project",
     "Pasted image 20260318101504.png",
-    "Pasted image 20260318101336.png",
-    "Pasted image 20260318101231.png",
-    "src/content/docs/web3_churujin/chujin/binance-c2c.md",
-    "src/content/docs/project/circle",
-    "未命名.canvas"
+    "Pasted image 20260318101336.png"
   ]
 }
