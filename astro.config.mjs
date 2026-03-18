@@ -6,7 +6,7 @@ export default defineConfig({
     site: 'https://newgox.vercel.app',
     integrations: [
         starlight({
-            title: 'NewGoX 知识库',
+            title: 'Web3入门到精通知识库',
             // 注意：这里已经彻底删除了引发报错的 social 配置
             sidebar: [
                 {
@@ -16,140 +16,168 @@ export default defineConfig({
                     ],
                 },
                 {
-                    label: '🛡️ Web3安全篇',
-                    autogenerate: { directory: 'beidaoleixing' }, 
-                },
-                {
-                    label: '💰 Web3出入金',
+                    label: '海外银行开户教程',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: '众安银行',
+                            autogenerate: { directory: 'web3_pay/zabank' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: '新加坡华侨银行OCBC',
+                            autogenerate: { directory: 'web3_pay/OCBC' },
                         },
                     ],
                 },
                 {
-                    label: 'web3_project', // 侧边栏一级目录显示的名称
-                    autogenerate: { directory: 'jupiter' }, // 自动扫描该文件夹下的子目录
-                },
-                {
-                    label: '💰 Web3出入金',
+                    label: '海外手机号申请教程',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: 'giffgaff',
+                            autogenerate: { directory: 'web3_esim/giffgaff' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: 'vodafone',
+                            autogenerate: { directory: 'web3_esim/vodafone' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'web3交易所注册教程',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: 'binance',
+                            autogenerate: { directory: 'web3_exchange/binance' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: 'backpack',
+                            autogenerate: { directory: 'web3_exchange/backpack' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'Web3出入金教程',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: '入金',
+                            autogenerate: { directory: 'web3_onoff/on' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: '出金',
+                            autogenerate: { directory: 'web3_onoff/off' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'Web3钱包使用教程',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: 'metamask钱包',
+                            autogenerate: { directory: 'web3_walletuse/metamask' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: 'ledger钱包',
+                            autogenerate: { directory: 'web3_walletuse/ledger' },
+                        },
+                        {
+                            label: 'trezor钱包',
+                            autogenerate: { directory: 'web3_walletuse/trezor' },
+                        },
+                        {
+                            label: '比特币多签钱包',
+                            autogenerate: { directory: 'web3_walletuse/sparrow' },
+                        },
+                        {
+                            label: '以太坊多签钱包',
+                            autogenerate: { directory: 'web3_walletuse/safe' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'Web3项目分析',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: 'jupiter',
+                            autogenerate: { directory: 'web3_project/jupiter' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: 'hyperliquid',
+                            autogenerate: { directory: 'web3_project/hyperliquid' },
+                        },
+                        {
+                            label: 'aave',
+                            autogenerate: { directory: 'web3_project/aave' },
+                        },
+                        {
+                            label: 'uniswap',
+                            autogenerate: { directory: 'web3_project/uniswap' },
+                        },
+                        {
+                            label: 'circle',
+                            autogenerate: { directory: 'web3_project/circle' },
+                        },
+                        {
+                            label: 'pump',
+                            autogenerate: { directory: 'web3_project/pump' },
+                        },
+                        {
+                            label: 'ondo',
+                            autogenerate: { directory: 'web3_project/ondo' },
+                        },
+                        {
+                            label: 'pendle',
+                            autogenerate: { directory: 'web3_project/pendle' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'Web3链上必备工具',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: '入门必备工具',
+                            autogenerate: { directory: 'web3_tools/base' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: '进阶工具',
+                            autogenerate: { directory: 'web3_tools/pro' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'Web3链上实操教程',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: 'airdrop',
+                            autogenerate: { directory: 'web3_practice/airdrop' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: 'ido',
+                            autogenerate: { directory: 'web3_parctice/ido' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: 'Web3交易',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: '交易系统搭建',
+                            autogenerate: { directory: 'web3_trade/system' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: '待添加',
+                            autogenerate: { directory: 'web3_trade/waitlist' },
                         },
                     ],
                 },
                 {
-                    label: '💰 Web3出入金',
+                    label: '持续更新中',
                     items: [
                         {
-                            label: '出金',
-                            autogenerate: { directory: 'web3_churujin/chujin' },
+                            label: '待更新1',
+                            autogenerate: { directory: 'web3_waiting/01' },
                         },
                         {
-                            label: '入金',
-                            autogenerate: { directory: 'web3_churujin/rujin' },
+                            label: '待更新02',
+                            autogenerate: { directory: 'web3_waiting/02' },
                         },
                     ],
                 },                
