@@ -33,6 +33,10 @@ export default defineConfig({
                     ],
                 },
                 {
+                    label: 'web3_project', // 侧边栏一级目录显示的名称
+                    autogenerate: { directory: 'jupiter' }, // 自动扫描该文件夹下的子目录
+                },
+                {
                     label: '📚 参考资料',
                     autogenerate: { directory: 'reference' },
                 },

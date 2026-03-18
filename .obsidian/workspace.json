@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "7c8fbca1254bdf1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "99bdf4146619cc21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7500d7873e49bc6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/docs/web3_churujin/chujin/binance-c2c.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "binance-c2c"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b90a5ce5199d3505",
+    "type": "split",
+    "children": [
+      {
+        "id": "98e0677d1cb91fb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd2395b18b58b256",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4e9d2d20b57cb32f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "92a34fa91f052615",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b11e5a2e12f37ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "3138999bc12c666f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "328fe69fc166839a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/docs/web3_churujin/chujin/binance-c2c.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "Obsidian Git",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "binance-c2c 的反向链接列表"
+            }
+          },
+          {
+            "id": "a44cd2279c80aa69",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "未命名 的出链列表"
+            }
+          },
+          {
+            "id": "dbbb5894f683c5bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "d0c08d9e3a776af2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2e8cf523c1ab8082",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "7500d7873e49bc6e",
+  "lastOpenFiles": [
+    "src/content/docs/web3_project/hyperliquid",
+    "src/content/docs/web3_project/jupiter/JUP销毁数据明细.md",
+    "src/content/docs/web3_project/jupiter",
+    "src/content/docs/project/Jupiter/JUP销毁数据明细.md",
+    "src/content/docs/web3_project/Jupiter/JUP销毁数据明细.md",
+    "src/content/docs/web3_project/uniswap",
+    "src/content/docs/web3_project/circle",
+    "src/content/docs/web3_project/aave",
+    "src/content/docs/web3_project/Jupiter",
+    "src/content/docs/web3_project/Hyperliquid",
+    "src/content/docs/web3_project",
+    "Pasted image 20260318101504.png",
+    "Pasted image 20260318101336.png",
+    "Pasted image 20260318101231.png",
+    "src/content/docs/web3_churujin/chujin/binance-c2c.md",
+    "src/content/docs/project/circle",
+    "src/content/docs/project/未命名文件夹",
+    "src/content/docs/project/uniswap",
+    "未命名.canvas"
+  ]
+}
